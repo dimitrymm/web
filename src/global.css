@@ -2,3 +2,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* It's applying the background color and text color to the body. */
+body{
+  @apply bg-[#09090A] text-zinc-100;
+} 
